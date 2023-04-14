@@ -36,6 +36,11 @@ export const constantRoutes = [
     component: () => import('@/views/login/index'),
     hidden: true
   },
+  {
+    path: '/mars3d',
+    component: () => import('@/views/mars3d/index'),
+    hidden: true
+  },
 
   {
     path: '/404',

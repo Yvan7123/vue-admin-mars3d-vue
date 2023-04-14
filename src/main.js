@@ -8,12 +8,15 @@ import locale from 'element-ui/lib/locale/lang/en' // lang i18n
 
 import '@/styles/index.scss' // global css
 
+// Vue.prototype.$turf = turf
 import App from './App'
 import store from './store'
 import router from './router'
-
+// import "mars3d-cesium/Build/Cesium/Widgets/widgets.css"
+window.Cesium  = Cesium
 import '@/icons' // icon
 import '@/permission' // permission control
+import { Cesium } from 'mars3d'
 
 /**
  * If you don't want to use mock-server
