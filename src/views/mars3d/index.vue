@@ -1,6 +1,8 @@
 <template>
+  <div class="app-container">
   <div id="centerDiv" class="mapcontainer">
     <mars-map :url="configUrl" @onload="onMapload" />
+  </div>
   </div>
 </template>
 

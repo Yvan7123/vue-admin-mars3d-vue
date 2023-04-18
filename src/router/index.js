@@ -36,11 +36,6 @@ export const constantRoutes = [
     component: () => import('@/views/login/index'),
     hidden: true
   },
-  {
-    path: '/mars3d',
-    component: () => import('@/views/mars3d/index'),
-    hidden: true
-  },
 
   {
     path: '/404',
@@ -161,6 +156,18 @@ export const constantRoutes = [
       {
         path: 'https://panjiachen.github.io/vue-element-admin-site/#/',
         meta: { title: 'External Link', icon: 'link' }
+      }
+    ]
+  },
+  {
+    path: '/mars3d',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        name: 'mars3d',
+        component: () => import('@/views/mars3d/index'),
+        meta: { title: 'mars3d', icon: 'mars3d' }
       }
     ]
   },
