@@ -7,7 +7,7 @@
 <script>
 import MarsMap from '@/components/mars-work/mars-map.vue'
 import * as mars3d from 'mars3d'
-const Cesium = Window.Cesium
+// const Cesium = Window.Cesium
 
 export default {
   // eslint-disable-next-line vue/multi-word-component-names

@@ -13,10 +13,13 @@ import App from './App'
 import store from './store'
 import router from './router'
 // import "mars3d-cesium/Build/Cesium/Widgets/widgets.css"
-window.Cesium  = Cesium
+// window.Cesium  = Cesium
+import "mars3d-cesium/Build/Cesium/Widgets/widgets.css"
+import "mars3d-cesium"
+import "mars3d"
 import '@/icons' // icon
 import '@/permission' // permission control
-import { Cesium } from 'mars3d'
+// import { Cesium } from 'mars3d'
 
 /**
  * If you don't want to use mock-server
